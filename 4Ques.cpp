@@ -3,12 +3,12 @@ using namespace std;
 
 int main(){
 
-int n;
-cin>>n;
+int h;
+cin>>h;
 
-for(int i = 1 ; i <=n ; i++){
-    for(int j = 1 ; j<=n ; j++){
-        if(j <= n-i){
+for(int i = 1 ; i <=h ; i++){
+    for(int j = 1 ; j<=h ; j++){
+        if(j <= h-i){
             cout<<" ";
         }
         else{
